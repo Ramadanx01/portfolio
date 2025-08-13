@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="محمد بدوي - مطور واجهات أمامية يعرض أعماله الاحترافية ومهاراته في تصميم مواقع الويب.">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="محمد بدوي | مطور واجهات أمامية">
+  <meta property="og:description" content="معرض أعمال محمد بدوي - مطور واجهات أمامية متخصص في تصميم مواقع احترافية.">
+  <meta property="og:image" content="https://ramadanx01.github.io/images/profile.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ramadanx01.github.io/">
+  <meta property="og:locale" content="ar_AR">
+  <meta property="og:site_name" content="محمد بدوي | Front-End Developer">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="محمد بدوي | مطور واجهات أمامية">
+  <meta name="twitter:description" content="شاهد أعمالي كمطور مواقع واجهات أمامية محترف.">
+  <meta name="twitter:image" content="https://ramadanx01.github.io/images/profile.jpg">
+
+  <title>محمد بدوي - تواصل معي</title>
+  <link href="./css/project-details.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center gap-3">
+        <img src="images/profile.jpg" alt="صورتي" class="profile-img" loading="lazy" />
+        <a class="navbar-brand" href="./index.html">محمد بدوي</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="./about.html">عني</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html#projects">أعمالي</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html#skills">مهاراتي</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./contact.html">تواصل معي</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="project-details" data-aos="fade-up">
+    <div class="container">
+      <h1 class="text-center mb-5">تواصل معي</h1>
+      
+      <div class="row">
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="contact-form">
+            <h3 class="mb-4">أرسل رسالة</h3>
+            <form id="contactForm">
+              <div class="mb-3">
+                <label for="name" class="form-label">الاسم</label>
+                <input type="text" class="form-control" id="name" placeholder="أدخل اسمك الكريم" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">البريد الإلكتروني</label>
+                <input type="email" class="form-control" id="email" placeholder="أدخل بريدك الإلكتروني" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">الرسالة</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="أخبرني كيف يمكنني مساعدتك" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100" id="submitBtn">إرسال الرسالة</button>
+              <div class="mt-3 text-center d-none" id="formSuccess">
+                <div class="alert alert-success">
+                  <i class="fas fa-check-circle me-2"></i> تم إرسال رسالتك بنجاح! سأتواصل معك قريباً.
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="contact-info">
+            <h3 class="mb-4">معلومات التواصل</h3>
+            
+            <div class="mb-4 text-center">
+              <div class="contact-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <h4>واتساب</h4>
+              <p class="mb-3">للتواصل السريع والمباشر</p>
+              <a href="https://wa.me/201080860210?text=مرحباً، شفت البورتفوليو بتاعك وعايز أتكلم معاك" target="_blank" class="btn btn-outline-primary">
+                تواصل عبر واتساب
+              </a>
+            </div>
+            
+            <hr class="my-4">
+            
+            <div class="mb-4 text-center">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <h4>لينكد إن</h4>
+              <p class="mb-3">للتواصل المهني وفرص العمل</p>
+              <a href="https://www.linkedin.com/in/%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D8%AF%D9%88%D9%8A-a669312a5/" target="_blank" class="btn btn-outline-primary">
+                زيارة ملفي الشخصي
+              </a>
+            </div>
+            
+            <hr class="my-4">
+            
+            <div class="text-center">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <h4>البريد الإلكتروني</h4>
+              <p class="mb-3">تواصل معي عبر البريد الإلكتروني</p>
+              <a href="/cdn-cgi/l/email-protection#e68b9495948bd3d3d3a6818b878f8ac885898b" class="btn btn-outline-primary">
+                <span class="__cf_email__" data-cfemail="432e3130312e76767603242e222a2f6d202c2e">[email&#160;protected]</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>© محمد بدوي - 2025 | جميع الحقوق محفوظة</p>
+        <div class="social-icons">
+          <a href="https://github.com/ramadanx01" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/%D9%85%D8%AD%D9%85%D8%AF-%D8%A8%D8%AF%D9%88%D9%8A-a669312a5/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://wa.me/201080860210" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <button id="back-to-top" title="الرجوع للأعلى" aria-label="الرجوع للأعلى"><i class="fas fa-arrow-up"></i></button>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/main.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init();
+      
+      // نموذج الاتصال
+      const contactForm = document.getElementById('contactForm');
+      const formSuccess = document.getElementById('formSuccess');
+      
+      if (contactForm) {
+        contactForm.addEventListener('submit', function(event) {
+          event.preventDefault();
+          const submitBtn = document.getElementById('submitBtn');
+          submitBtn.disabled = true;
+          submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> جارِ الإرسال...';
+          
+          // محاكاة إرسال الرسالة
+          setTimeout(function() {
+            // تجهيز البريد الإلكتروني
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            // فتح برنامج البريد الإلكتروني
+            const mailtoLink = `mailto:mrsrm555@gmail.com?subject=رسالة من ${name} عبر البورتفوليو&body=الاسم: ${name}%0D%0A%0D%0Aالبريد الإلكتروني: ${email}%0D%0A%0D%0Aالرسالة: %0D%0A${message}`;
+            window.open(mailtoLink, '_blank');
+            
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = 'إرسال الرسالة';
+            formSuccess.classList.remove('d-none');
+            contactForm.reset();
+            
+            // إخفاء رسالة النجاح بعد فترة
+            setTimeout(function() {
+              formSuccess.classList.add('d-none');
+            }, 5000);
+          }, 1500);
+        });
+      }
+      
+      // زر العودة للأعلى
+      const backToTopButton = document.getElementById('back-to-top');
+      if (backToTopButton) {
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 300) {
+            backToTopButton.style.display = 'block';
+          } else {
+            backToTopButton.style.display = 'none';
+          }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        });
+      }
+    });
+  </script>
+</body>
+</html>
